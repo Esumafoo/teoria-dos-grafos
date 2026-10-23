@@ -11,7 +11,7 @@ typedef struct{
     int num_vertices;
 }GrafoLista;
 
-GrafoLista *criar_grafo_lista(int n);
-void adicionar_aresta_lista(GrafoLista *g, int u, int v);
+GrafoLista *criar_grafo(int n);
+void adicionar_aresta(GrafoLista *g, int u, int v);
 
 #endif
